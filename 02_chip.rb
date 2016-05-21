@@ -3,8 +3,6 @@
 require_relative 'stuff'
 include Stuff
 
-curs_set(0)
-
 y = lines / 2
 x = cols / 2
 
