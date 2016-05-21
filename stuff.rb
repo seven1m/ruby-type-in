@@ -1,3 +1,6 @@
+# Don't make the kids type this. Put this on their computer before they start
+# to hide some of the nasty bits from them. :-)
+
 require 'io/console'
 require 'curses'
 
@@ -16,6 +19,7 @@ module Stuff
     cbreak
   end
 
+  # borrowed from https://gist.github.com/acook/4190379
   def get_key
     STDIN.echo = false
     STDIN.raw!
