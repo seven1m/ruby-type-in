@@ -8,6 +8,6 @@ x = cols / 2
 
 clear
 setpos(y, x)
-addstr('😀')
+addstr('☺')
 refresh
 gets

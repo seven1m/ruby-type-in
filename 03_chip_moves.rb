@@ -1,3 +1,5 @@
+# coding: utf-8
+
 # Show Chip on the screen and allow the user
 # to move him around with the arrow keys.
 
@@ -10,7 +12,7 @@ x = cols / 2
 loop do
   clear
   setpos(y, x)
-  addstr('😀')
+  addstr('☺')
   refresh
   key = get_key
   if key == UP
